@@ -1,0 +1,12 @@
+[user]
+	email = yangbc30@gmail.com
+	name = yangbc
+[http]
+	proxy = socks5h://127.0.0.1:10809
+[init]
+	defaultBranch = main
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
