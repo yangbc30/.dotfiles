@@ -116,6 +116,9 @@ Plug 'preservim/nerdtree'
 " coc conquer of completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" complete nested number list
+Plug 'dkarter/bullets.vim'
+
 call plug#end() 
 
 
@@ -129,7 +132,7 @@ let g:suda_smart_edit = 1
 " COC
 " ===
 
-let g:coc_global_extensions = ['coc-json','coc-vimlsp']
+let g:coc_global_extensions = ['coc-json','coc-vimlsp', 'coc-webview', 'coc-markdown-preview-enhanced', 'coc-html', 'coc-css']
 
 " set hidden
 
